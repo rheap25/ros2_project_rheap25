@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ros2_project_rheap25'
+package_name = 'ros2_project_sc22r2p'
 
 setup(
     name=package_name,
@@ -20,10 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'first_step = ros2_project_rheap25.first_step:main',
-            'second_step = ros2_project_rheap25.second_step:main',
-            'third_step = ros2_project_rheap25.third_step:main',
-            'fourth_step = ros2_project_rheap25.fourth_step:main',
+            'travel = ros2_project_sc22r2p.travel_corners:main',
         ],
     },
 )
